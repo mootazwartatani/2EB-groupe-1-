@@ -1,0 +1,87 @@
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    caret-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-image: url(ranmen.jpg);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 65vh;
+}
+
+section {
+    text-align: center;
+    padding: 30px;
+    background: #010a09c0;
+}
+
+.hidden {
+    display: none;
+}
+
+#field {
+    padding: 30px;
+    min-width: 20vh;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    font-family: "Finger Paint", sans-serif;
+    color: #0b19b3;
+    box-shadow: 0 0 0 1px #6a25ff;
+    border: 1px solid #796ea3;
+    cursor: pointer;
+    line-height: 1em;
+    background: #a0d2ebc0;
+}
+
+.sidebar {
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #8e1aab;
+}
+
+.sidebar * {}
+
+#status {
+    flex: 4;
+}
+
+.button_box {
+    box-sizing: border-box;
+    background: #8e1aab;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: none;
+}
+
+button:hover {
+    background-color: #8458B3;
+}
+
+#titleTurns {
+    font-size: .8em;
+}
+
+#numberTurns {
+    font-size: 1.4em;
+    margin: 0;
+}
